@@ -5,7 +5,7 @@ const express = require("express"),
   routes = require("./routes/route");
 
 const URI =
-  "mongodb+srv://gaurav:xjX01358ywfUjX0w@cluster0.0vw3d.mongodb.net/weblab?retryWrites=true&w=majority";
+  "mongodb+srv://<id>:<password>@cluster0.asp3w.mongodb.net/<db>?retryWrites=true&w=majority";
 
 app.set("view engine", "ejs");
 app.set("views", "views");
